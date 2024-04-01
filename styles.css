@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+:root {
+    --custom-font: "Chakra Petch", sans-serif;
+
+    --ccs-color: #fd7e14;
+    --ccs-hover: #e57000;
+    --ccs-active: #ff9500;
+}
+
+body {
+    font-family: var(--custom-font);
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--ccs-color);
+    --bs-btn-border-color: var(--ccs-color);
+
+    --bs-btn-hover-bg: var(--ccs-hover);
+    --bs-btn-hover-border-color: var(--ccs-hover);
+
+    --bs-btn-active-bg: var(--ccs-active);
+    --bs-btn-active-border-color: var(--ccs-active);
+
+    --bs-btn-disabled-bg: var(--ccs-color);
+    --bs-btn-disabled-border-color: var(--ccs-color);
+}
+
+#overview {
+    padding: 30px 0;
+}
+
+#pricing, #gallery {
+    padding: 100px 0;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+span {
+    color: var(--ccs-color);
+}
+
+#merch-images {
+    transition: opacity 1.5s ease-in-out;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: var(--ccs-color);
+    --bs-btn-border-color: var(--ccs-color);
+
+    --bs-btn-hover-bg: var(--ccs-color);
+    --bs-btn-hover-border-color: var(--ccs-color);
+
+    --bs-btn-active-bg: var(--ccs-color);
+    --bs-btn-active-border-color: var(--ccs-color);
+
+    --bs-btn-disabled-color: var(--ccs-color)
+    --bs-btn-disabled-border-color: var(--ccs-color);
+}
+
+.gallery-item {
+    max-width: 100%;
+    cursor: pointer;
+    transition: all 0.9s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.01);
+}
+
+#gallery-popup .modal-img{
+    width: 100%;
+}
